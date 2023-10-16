@@ -1,0 +1,7 @@
+n=input("enter the list of numbers")
+a=n.split(",")
+a=list(map(int,a))
+s=min(a)
+a.remove(s)
+c=min(a)
+print("SECOND LARGEST: ",c)

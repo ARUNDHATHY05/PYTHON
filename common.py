@@ -1,0 +1,5 @@
+a=input("enter collection 1: ")
+a=set(map(int,a.split(',')))
+c=input("enter collection 2: ")
+c=set(map(int,c.split(',')))
+print("common value: ",bool(len(a&c)))

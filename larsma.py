@@ -1,0 +1,7 @@
+num=input("enter the numbers seperated by comma: ")
+a=num.split()
+b=list(a)
+large=max(b)
+print("LARGEST ELEMENT: ",large)
+small=min(b)
+print("SMALLEST ELEMENT: ",small)

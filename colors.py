@@ -1,0 +1,5 @@
+s1=input("enter the colors seperated by comma")
+colors=list(s1.split(','))
+c=len(colors)
+print(c)
+print(colors[0:c:2])

@@ -1,0 +1,6 @@
+a=input("enter collection 1: ")
+a=set(map(int,a.split(',')))
+c=input("enter collection 2: ")
+c=set(map(int,c.split(',')))
+sum(a)==sum(c)
+print("sum to same value: ",sum(a)==sum(c))
